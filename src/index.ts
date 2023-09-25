@@ -1,1 +1,1 @@
-export * from './components/SomeTest/SomeTest.tsx'
+export * from './components/CustomList/CustomList.tsx'
