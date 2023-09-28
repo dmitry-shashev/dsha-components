@@ -7,7 +7,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
-  "version": "0.0.12",
+  "version": "0.0.13",
   "type": "module",
   "exports": {
     ".": {
@@ -20,7 +20,6 @@
   },
   "scripts": {
     "prepare": "husky install",
-    "check": "node check.js",
     "prettier-format": "prettier --write . && git add --all",
     "build": "tsc && vite build",
     "dev": "storybook dev -p 6006",

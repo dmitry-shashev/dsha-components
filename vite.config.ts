@@ -13,6 +13,12 @@ export default defineConfig({
     }),
     dts({
       insertTypesEntry: true,
+      exclude: [
+        '**/*.test-data.ts',
+        '**/*.test.ts',
+        '**/*.test.tsx',
+        '**/*.stories.tsx',
+      ],
     }),
   ],
   build: {
