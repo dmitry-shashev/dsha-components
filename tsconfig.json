@@ -28,11 +28,5 @@
     "jsxImportSource": "@emotion/react"
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }],
-  "exclude": [
-    "**/*.test-data.ts",
-    "**/*.test.ts",
-    "**/*.test.tsx",
-    "**/*.stories.tsx"
-  ]
+  "references": [{ "path": "./tsconfig.node.json" }]
 }

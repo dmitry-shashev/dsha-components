@@ -23,9 +23,6 @@ jobs:
           cache: 'pnpm'
       - run: pnpm install --ignore-scripts --frozen-lockfile
       - run: pnpm build
-      - run: pnpm check
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
