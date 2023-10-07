@@ -72,6 +72,9 @@ export function CustomList<TValue extends IValue = IValue>({
                 padding: 0,
               }}
               disableRipple
+              inputProps={{
+                'aria-label': 'Checkbox list element',
+              }}
             />
           </ListItemIcon>
           <ListItemText
@@ -112,6 +115,9 @@ export function CustomList<TValue extends IValue = IValue>({
             sx={{
               padding: '2px',
             }}
+            inputProps={{
+              'aria-label': 'Checkbox all elements',
+            }}
             disableRipple
           />
         </IconButton>
@@ -125,7 +131,7 @@ export function CustomList<TValue extends IValue = IValue>({
             ml: 1,
             flex: 1,
           }}
-          inputProps={{ 'aria-label': 'search google maps' }}
+          inputProps={{ 'aria-label': 'Filter Search' }}
         />
         <IconButton
           onClick={onClear}

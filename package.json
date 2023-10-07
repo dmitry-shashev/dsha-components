@@ -7,7 +7,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": false,
-  "version": "0.0.13",
+  "version": "0.0.14",
   "type": "module",
   "exports": {
     ".": {
@@ -84,7 +84,7 @@
     "prettier": "^3.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "rtl-utils": "0.0.6",
+    "rtl-utils": "0.0.10",
     "sass": "1.66.1",
     "storybook": "^7.4.1",
     "typescript": "^5.0.2",
